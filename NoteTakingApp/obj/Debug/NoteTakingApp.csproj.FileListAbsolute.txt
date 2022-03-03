@@ -1,0 +1,7 @@
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\bin\Debug\NoteTakingApp.dll.config
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\bin\Debug\NoteTakingApp.dll
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\bin\Debug\NoteTakingApp.pdb
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\obj\Debug\NoteTakingApp.csproj.CoreCompileInputs.cache
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\obj\Debug\NoteTakingApp.dll
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\obj\Debug\NoteTakingApp.pdb
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingApp\obj\Debug\NoteTakingApp.csproj.AssemblyReference.cache

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e8393699-3a83-483e-83c8-13c88a817c4e": {
+      "ProjectGuid": "e8393699-3a83-483e-83c8-13c88a817c4e",
+      "DisplayName": "NoteTakingApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2c2fb4b9-9282-4d06-8350-ce110bcf4abe": {
+      "ProjectGuid": "2c2fb4b9-9282-4d06-8350-ce110bcf4abe",
+      "DisplayName": "NoteTakingHost",
+      "ColorIndex": 1
+    },
+    "e343452c-52e6-4777-bb7c-f2cfce32c289": {
+      "ProjectGuid": "e343452c-52e6-4777-bb7c-f2cfce32c289",
+      "DisplayName": "NoteTakingClient",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

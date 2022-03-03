@@ -1,0 +1,15 @@
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingHost.exe.config
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingHost.exe
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingHost.pdb
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingApp.dll
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingApp.pdb
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\bin\Debug\NoteTakingApp.dll.config
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.csproj.AssemblyReference.cache
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.csproj.SuggestedBindingRedirects.cache
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.Form1.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.Properties.Resources.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.csproj.GenerateResource.cache
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.csproj.CoreCompileInputs.cache
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.csproj.CopyComplete
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.exe
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingHost\obj\Debug\NoteTakingHost.pdb
