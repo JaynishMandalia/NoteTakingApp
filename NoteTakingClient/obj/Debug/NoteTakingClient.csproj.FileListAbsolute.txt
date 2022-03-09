@@ -16,3 +16,8 @@ D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\
 D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\bin\Debug\NoteTakingHost.pdb
 D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\bin\Debug\NoteTakingHost.exe.config
 D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.csproj.CopyComplete
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.Form2.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.Forms.AddNote.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.Forms.DeleteNote.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.Forms.ShowNote.resources
+D:\Sem 6\SOC-SERVICE ORIENTED COMPUTING\SOC Proj\NoteTakingApp\NoteTakingClient\obj\Debug\NoteTakingClient.Forms.UpdateNote.resources
