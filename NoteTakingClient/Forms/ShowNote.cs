@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NoteTakingClient.Forms
@@ -17,5 +11,13 @@ namespace NoteTakingClient.Forms
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ServiceReference1.NoteTakingServiceClient nt = new ServiceReference1.NoteTakingServiceClient("WSHttpBinding_INoteTakingService");
+            DataSet ds = nt.GetNotes(int.Parse(textBox1.Text));
+            checkedListBox1.DataSource = ds.Tables[0].DefaultView;
+            checkedListBox1.DisplayMember = "LastNote";
+            nt.Close();
+        }
     }
 }

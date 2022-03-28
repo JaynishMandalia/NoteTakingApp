@@ -38,8 +38,10 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPage = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panelMenu.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
+            this.panelDesktopPage.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -164,6 +166,7 @@
             this.btnClose.Size = new System.Drawing.Size(28, 28);
             this.btnClose.TabIndex = 1;
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Visible = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblTitle
@@ -178,13 +181,25 @@
             // panelDesktopPage
             // 
             this.panelDesktopPage.BackColor = System.Drawing.Color.LightGray;
-            this.panelDesktopPage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelDesktopPage.BackgroundImage")));
             this.panelDesktopPage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.panelDesktopPage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelDesktopPage.Controls.Add(this.groupBox1);
             this.panelDesktopPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPage.Location = new System.Drawing.Point(246, 78);
             this.panelDesktopPage.Name = "panelDesktopPage";
             this.panelDesktopPage.Size = new System.Drawing.Size(718, 436);
             this.panelDesktopPage.TabIndex = 2;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox1.Location = new System.Drawing.Point(316, 149);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(140, 98);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
             // 
             // Form2
             // 
@@ -202,6 +217,7 @@
             this.panelMenu.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
+            this.panelDesktopPage.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -217,5 +233,6 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panelDesktopPage;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

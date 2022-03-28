@@ -10,15 +10,15 @@ namespace NoteTakingApp
 {
     public class NoteTakingService : INoteTakingService
     {
-        
         public bool AddNote(NoteTaking nt)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True");
             SqlDataAdapter adapter = new SqlDataAdapter();
             con.Open();
             SqlCommand cmd = new SqlCommand("INSERT INTO Note (Name, LastNote) VALUES (@Name, @LastNote)", con);
             cmd.Parameters.Add("@Name", nt.Name);
             cmd.Parameters.Add("@LastNote", nt.Notes);
+            
             adapter.InsertCommand = cmd;
             adapter.InsertCommand.ExecuteNonQuery();
             con.Close();
@@ -27,10 +27,10 @@ namespace NoteTakingApp
 
         public bool DeleteNote(int PersonID)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True");
             SqlDataAdapter adapter = new SqlDataAdapter ();
             con.Open();
-            SqlCommand cmd = new SqlCommand("DELETE FROM Note WHERE PersonID = @PersonID", con);
+            SqlCommand cmd = new SqlCommand("DELETE FROM Note WHERE Id = @PersonID", con);
             cmd.Parameters.Add("@PersonID", PersonID);
             adapter.DeleteCommand = cmd;
             adapter.DeleteCommand.ExecuteNonQuery();
@@ -38,10 +38,10 @@ namespace NoteTakingApp
         }
         public bool UpdateNote(NoteTaking nt)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True");
             SqlDataAdapter adapter = new SqlDataAdapter();
             con.Open();
-            SqlCommand cmd = new SqlCommand("UPDATE Note SET Name = @Name, LastNote = @Note WHERE PersonID = @PersonID", con);
+            SqlCommand cmd = new SqlCommand("UPDATE Note SET Name = @Name, LastNote = @Note WHERE Id = @PersonID", con);
             cmd.Parameters.Add("@PersonID", nt.ID);
             cmd.Parameters.Add("@Name", nt.Name);
             cmd.Parameters.Add("@Note", nt.Notes);
@@ -53,10 +53,10 @@ namespace NoteTakingApp
 
         public DataSet GetNotes(int PersonID)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=NorthWind;Integrated Security=True");
             SqlDataAdapter adapter;
             DataSet ds = new DataSet();
-            string cmd = "SELECT LastNote FROM Note WHERE PersonID = " + PersonID;
+            string cmd = "SELECT LastNote FROM Note WHERE Id = " + PersonID;
             con.Open();
             adapter = new SqlDataAdapter(cmd, con);
             adapter.Fill(ds);

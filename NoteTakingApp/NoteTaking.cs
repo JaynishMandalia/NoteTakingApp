@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace NoteTakingApp
 {
@@ -8,6 +9,7 @@ namespace NoteTakingApp
         int id;
         string name;
         string notes;
+
         [DataMember]
         public int ID
         {
@@ -26,13 +28,5 @@ namespace NoteTakingApp
             get { return notes;}
             set { notes = value; }
         }
-
-        //public NoteTaking(int Id, string Name, string Notes)
-        //{
-        //    this.id = Id;
-        //    this.name = Name;
-        //    this.notes = Notes;
-        //}
-
     }
 }
